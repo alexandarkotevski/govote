@@ -1,0 +1,42 @@
+
+body{
+    background-image: url("media/img/parliamentBackground.png");
+    background-size: cover;
+}
+
+
+form {
+/*
+    border-style: solid;
+    border-color: rgba(34,34,34,0.75);
+    border-radius: 25px;
+   margin-bottom: 6px;
+    margin-top: -1px;
+    margin-right: 500px;
+    margin-left: 400px;
+    z-index:90;
+    background: rgb(34,34,34);  for IE
+    background: rgba(34,34,34,0.75); */
+    text-align: center;
+    float: left;
+    position: absolute;
+    left: 850px;
+    top: 400px;
+    text-align: center;
+}
+h1 {
+    color: black;
+    text-align: center;
+    img-align: center;
+    font-weight: bold;
+
+}
+
+p {
+
+    font-family: Tahoma;
+    font-weight: bold;
+    font-size: 20px;
+    text-align:center;
+}
+
