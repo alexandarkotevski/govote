@@ -1,6 +1,9 @@
 
 body{
-    background-image: url("media/img/parliamentBackground.png");
+    background: url("media/img/parliamentBackground.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
 }
 
@@ -10,18 +13,13 @@ form {
     border-style: solid;
     border-color: rgba(34,34,34,0.75);
     border-radius: 25px;
-   margin-bottom: 6px;
+    margin-bottom: 6px;
     margin-top: -1px;
     margin-right: 500px;
     margin-left: 400px;
     z-index:90;
     background: rgb(34,34,34);  for IE
     background: rgba(34,34,34,0.75); */
-    text-align: center;
-    float: left;
-    position: absolute;
-    left: 850px;
-    top: 400px;
     text-align: center;
 }
 h1 {
@@ -37,6 +35,11 @@ p {
     font-family: Tahoma;
     font-weight: bold;
     font-size: 20px;
-    text-align:center;
+    text-align: center;
 }
 
+.center {
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+}
